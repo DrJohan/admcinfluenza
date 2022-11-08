@@ -2,16 +2,39 @@ project:
   type: website
 
 website:
-  title: "boilerplate"
+  title: "Influenza Cases in ADMC"
   navbar:
+    background: "#447099"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Slides
+        menu: 
+          - href: materials/
+            text: "First Meeting"
+          - href: materials/
+            text: "Second Meeting"
+  
+    right: 
+      - href: "https://aesculape.com"
+        text: "Aesculape CRO Malaysia Sdn Bhd"
+      - icon: github
+        href: https://github.com/DrJohan/admcinfluenza.git
+      - icon: twitter
+        href: https://twitter.com/DrJohan81
+  sidebar: 
+    style: docked
+    contents: 
+      - section: "Meeting Slides"
+        contents: 
+          - href: materials/
+          - text: "First Meeting"
+          - href: materials/
+            text: "Second Meeting"
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
     toc: true
 
