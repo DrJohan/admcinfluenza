@@ -6,13 +6,13 @@ project:
     - "!materials/workshop/"
 
 website:
-  title: "Influenza Cases in ADMC"
+  title: "Influenza Trend and Cases in ADMC"
   twitter-card:
     card-style: summary_large_image
-    description: "Two hour workshop on getting started with Quarto"
+    description: "Years of Work to get Influenza Trend"
     image: "https://raw.githubusercontent.com/rstudio-conf-2022/get-started-quarto/main/preview.jpeg"
   page-footer:
-    left: "This page was built with ❤️ and [Quarto](https://quarto.org/) by [Johan Ibrahim](https://github.com/DrJohan)."
+    center: "This page was built with ❤️ and [Quarto](https://quarto.org/) by [Johan Ibrahim](https://github.com/DrJohan)."
   navbar:
     background: "#447099"
     left:
