@@ -13,6 +13,8 @@ website:
     image: "https://raw.githubusercontent.com/rstudio-conf-2022/get-started-quarto/main/preview.jpeg"
   page-footer:
     center: "This page was built with ❤️ and [Quarto](https://quarto.org/) by [Johan Ibrahim](https://github.com/DrJohan)."
+  repo-url: https://github.com/DrJohan/admcinfluenza
+  repo-actions: [edit, issue]
   navbar:
     logo: img/logo.png
     logo-href: "https://aesculape.com"
