@@ -6,7 +6,7 @@ project:
     - "!materials/workshop/"
 
 website:
-  title: "Influenza Trend and Cases in ADMC"
+  title: "Influenza"
   twitter-card:
     card-style: summary_large_image
     description: "Years of Work to get Influenza Trend"
@@ -14,6 +14,8 @@ website:
   page-footer:
     center: "This page was built with ❤️ and [Quarto](https://quarto.org/) by [Johan Ibrahim](https://github.com/DrJohan)."
   navbar:
+    logo: img/logo.png
+    logo-href: "https://aesculape.com"
     background: "#447099"
     left:
       - href: index.qmd
@@ -26,8 +28,6 @@ website:
             text: "Second Meeting"
   
     right: 
-      - href: "https://aesculape.com"
-        text: "Aesculape CRO Malaysia Sdn Bhd"
       - icon: github
         href: https://github.com/DrJohan/admcinfluenza.git
       - icon: twitter
