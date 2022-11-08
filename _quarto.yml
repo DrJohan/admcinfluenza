@@ -14,7 +14,7 @@ website:
   page-footer:
     center: "This page was built with ❤️ and [Quarto](https://quarto.org/) by [Johan Ibrahim](https://github.com/DrJohan)."
   navbar:
-    background: "#447099"
+    background: "#00d084"
     left:
       - href: index.qmd
         text: Home
